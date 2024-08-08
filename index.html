@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1> مواقيت الصلاة دبي</h1>
+        </div>
+        <header class="mb-3 ">
+            <div class="date h-100">
+                <p id="hour"><span></span></p>
+            </div>
+            <div class="hour h-100">
+                <p id="time_now"> </p>
+            </div>
+        </header>
+       
+
+        <div class="select">
+            <select name="" id="select">
+                
+            </select>
+        </div>
+
+        <section class="row d-flex salah">
+            <div class="isha col-4">
+                <p id="isha"></p>
+                <h1>العشاء</h1>
+                <img src="//timesprayer.com/images/isha.svg" alt="">
+            </div>
+            <div class="magrep col-4">
+                <p id="magrep"></p>
+                <h1>المغرب</h1>
+                <img src="//timesprayer.com/images/maghrib.svg" alt="">
+            </div>
+            <div class="aser col-4">
+                <p id="aser"></p>
+                <h1>العصر</h1>
+                <img src="//timesprayer.com/images/asr.svg" alt="">
+            </div>
+            <div class="doher col-4">
+                <p id="doher"></p>
+                <h1>الضهر</h1>
+                <img src="//timesprayer.com/images/dhuhr.svg" alt="">
+            </div>
+            <div class="shorok col-4">
+                <p id="shorok"></p>
+                <h1>الشروق</h1>
+                <img src="//timesprayer.com/images/sunrise.svg" alt="">
+            </div>
+            <div class="fjer col-4">
+                <p id="fjer"></p>
+                <h1>الفجر</h1>
+                <img src="//timesprayer.com/images/fajr.svg" alt="">
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
